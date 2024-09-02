@@ -13,17 +13,16 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package run.mone.hera.operator.service;
 
-import com.xiaomi.youpin.docean.anno.Service;
+package run.mone.hera.operator.service;
 
 /**
  * @Description
  * @Author dingtao
- * @Date 2023/2/22 11:29 AM
+ * @Date 2023/2/25 11:35 AM
  */
-public interface ESService {
+public interface RocketMQService {
     
-    void createESTemplate(String esUrl, String userName, String password);
-
+    void createTopic(String namesrvAddr);
+    
 }

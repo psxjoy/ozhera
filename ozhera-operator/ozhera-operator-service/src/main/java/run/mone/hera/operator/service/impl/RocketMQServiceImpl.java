@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package run.mone.hera.operator.service;
+package run.mone.hera.operator.service.impl;
 
 import com.xiaomi.youpin.docean.anno.Service;
 import lombok.extern.slf4j.Slf4j;
@@ -25,6 +25,7 @@ import org.apache.rocketmq.client.impl.factory.MQClientInstance;
 import org.apache.rocketmq.common.TopicConfig;
 import org.apache.rocketmq.common.protocol.body.TopicList;
 import org.apache.rocketmq.remoting.exception.RemotingException;
+import run.mone.hera.operator.service.RocketMQService;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -36,7 +37,7 @@ import java.util.Set;
  */
 @Service
 @Slf4j
-public class RocketMQSerivce {
+public class RocketMQServiceImpl implements RocketMQService {
 
     private String brokerAddr = "rocketmq-broker-0-master:10911";
     private int queueSize = 1;
@@ -51,6 +52,7 @@ public class RocketMQSerivce {
             "mone_hera_jaeger_exporter",
             "hera_meta_data_staging"};
 
+    @Override
     public void createTopic(String namesrvAddr) {
         DefaultMQPushConsumer consumer = null;
         MQClientInstance mqClientInstance = null;

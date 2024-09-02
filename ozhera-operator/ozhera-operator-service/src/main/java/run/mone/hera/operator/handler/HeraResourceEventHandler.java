@@ -38,7 +38,7 @@ import run.mone.hera.operator.common.HoConstant;
 import run.mone.hera.operator.common.K8sUtilBean;
 import run.mone.hera.operator.common.ResourceTypeEnum;
 import run.mone.hera.operator.service.ESService;
-import run.mone.hera.operator.service.RocketMQSerivce;
+import run.mone.hera.operator.service.RocketMQService;
 
 import org.mariadb.jdbc.Driver;
 
@@ -80,7 +80,7 @@ public class HeraResourceEventHandler implements ResourceEventHandler<HeraBootst
     private ESService esService;
 
     @javax.annotation.Resource
-    private RocketMQSerivce rocketMQSerivce;
+    private RocketMQService rocketMQSerivce;
 
     @javax.annotation.Resource
     private K8sUtilBean k8sUtilBean;
