@@ -14,13 +14,16 @@
  *  limitations under the License.
  */
 
-package run.mone.hera.intelligence.service;
+package run.mone.hera.intelligence.service.impl;
 
+import org.springframework.stereotype.Service;
 import run.mone.hera.intelligence.domain.rootanalysis.LogPromptResult;
 import run.mone.hera.intelligence.domain.rootanalysis.MetricsPromptResult;
 import run.mone.hera.intelligence.domain.rootanalysis.TracePromptResult;
+import run.mone.hera.intelligence.service.PromptService;
 
-public interface PromptService {
+@Service
+public class PromptServiceImpl implements PromptService {
     
     /**
      * Conduct large model analysis based on trace data
@@ -28,7 +31,12 @@ public interface PromptService {
      * @param trace
      * @return
      */
-    public TracePromptResult traceAnalysis(String trace);
+    @Override
+    public TracePromptResult traceAnalysis(String trace) {
+        // Retrieve the corresponding prompt
+        // Invoke the large model for analysis
+        return null;
+    }
     
     /**
      * Conduct large model analysis based on log data
@@ -36,7 +44,12 @@ public interface PromptService {
      * @param log
      * @return
      */
-    public LogPromptResult logAnalysis(String log);
+    @Override
+    public LogPromptResult logAnalysis(String log) {
+        // Retrieve the corresponding prompt
+        // Invoke the large model for analysis
+        return null;
+    }
     
     /**
      * Conduct large model analysis based on metrics data
@@ -44,7 +57,12 @@ public interface PromptService {
      * @param metrics
      * @return
      */
-    public MetricsPromptResult metricsAnalysis(String metrics);
+    @Override
+    public MetricsPromptResult metricsAnalysis(String metrics) {
+        // Retrieve the corresponding prompt
+        // Invoke the large model for analysis
+        return null;
+    }
     
     /**
      * Summarize a clear and concise root cause based on the analysis results from trace, log, and metrics.
@@ -54,5 +72,9 @@ public interface PromptService {
      * @param metricsReason
      * @return
      */
-    public String getSimpleReason(String traceReason, String logReason, String metricsReason);
+    @Override
+    public String getSimpleReason(String traceReason, String logReason, String metricsReason) {
+        // Invoke the large model for analysis
+        return null;
+    }
 }

@@ -13,11 +13,12 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
+
 package run.mone.hera.intelligence.service;
 
 public class RootAnalysisConst {
-
+    
     public static final String LOG_PARAM_LEVEL = "ERROR";
-
+    
     public static final int METRICS_PARAM_GAP = 180000;
 }

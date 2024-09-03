@@ -13,16 +13,25 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
+package run.mone.hera.intelligence.service.impl;
 
-package run.mone.hera.intelligence.service;
+import org.springframework.stereotype.Service;
+import run.mone.hera.intelligence.domain.rootanalysis.MetricsQueryParam;
+import run.mone.hera.intelligence.service.MetricsService;
 
-import com.xiaomi.youpin.infra.rpc.Result;
-import run.mone.hera.intelligence.domain.rootanalysis.TraceQueryParam;
+/**
+ *
+ */
+@Service
+public class MetricsServiceImpl implements MetricsService {
 
-
-public interface RootAnalysisService {
-    
-    
-    Result<String> traceRootAnalysis(TraceQueryParam param);
-    
+    /**
+     * Query metrics based on the specified metric query conditions.
+     * @param param
+     * @return
+     */
+    @Override
+    public String queryMetricsRootAnalysis(MetricsQueryParam param){
+        return null;
+    }
 }

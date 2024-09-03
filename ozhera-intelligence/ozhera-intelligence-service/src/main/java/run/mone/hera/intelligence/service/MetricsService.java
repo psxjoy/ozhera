@@ -21,15 +21,12 @@ import run.mone.hera.intelligence.domain.rootanalysis.MetricsQueryParam;
 /**
  *
  */
-@Service
-public class MetricsService {
+public interface MetricsService {
 
     /**
      * Query metrics based on the specified metric query conditions.
      * @param param
      * @return
      */
-    public String queryMetricsRootAnalysis(MetricsQueryParam param){
-        return null;
-    }
+     String queryMetricsRootAnalysis(MetricsQueryParam param);
 }

@@ -13,16 +13,20 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
+package run.mone.hera.intelligence.service.impl;
 
-package run.mone.hera.intelligence.service;
-
-import com.xiaomi.youpin.infra.rpc.Result;
+import org.springframework.stereotype.Service;
 import run.mone.hera.intelligence.domain.rootanalysis.TraceQueryParam;
 
+@Service
+public class TraceServiceImpl {
 
-public interface RootAnalysisService {
-    
-    
-    Result<String> traceRootAnalysis(TraceQueryParam param);
-    
+    /**
+     * Query trace based on the specified trace query conditions.
+     * @param param
+     * @return
+     */
+    public String queryTraceRootAnalysis(TraceQueryParam param){
+        return null;
+    }
 }

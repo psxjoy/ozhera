@@ -13,20 +13,19 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
+
 package run.mone.hera.intelligence.service;
 
-import org.springframework.stereotype.Service;
 import run.mone.hera.intelligence.domain.rootanalysis.TraceQueryParam;
 
-@Service
-public class TraceService {
 
+public interface TraceService {
+    
     /**
      * Query trace based on the specified trace query conditions.
+     *
      * @param param
      * @return
      */
-    public String queryTraceRootAnalysis(TraceQueryParam param){
-        return null;
-    }
+    String queryTraceRootAnalysis(TraceQueryParam param);
 }
