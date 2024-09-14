@@ -15,13 +15,13 @@
  */
 package com.xiaomi.hera.trace.etl.api.service;
 
-import com.xiaomi.hera.trace.etl.domain.DriverDomain;
-import com.xiaomi.hera.trace.etl.domain.ErrorTraceMessage;
-import com.xiaomi.hera.trace.etl.domain.tracequery.Trace;
-import com.xiaomi.hera.trace.etl.domain.tracequery.TraceIdQueryVo;
-import com.xiaomi.hera.trace.etl.domain.tracequery.TraceListQueryVo;
-import com.xiaomi.hera.trace.etl.domain.tracequery.TraceOperationsVo;
-import com.xiaomi.hera.trace.etl.domain.tracequery.TraceQueryResult;
+import org.apache.ozhera.trace.etl.domain.DriverDomain;
+import org.apache.ozhera.trace.etl.domain.ErrorTraceMessage;
+import org.apache.ozhera.trace.etl.domain.tracequery.Trace;
+import org.apache.ozhera.trace.etl.domain.tracequery.TraceIdQueryVo;
+import org.apache.ozhera.trace.etl.domain.tracequery.TraceListQueryVo;
+import org.apache.ozhera.trace.etl.domain.tracequery.TraceOperationsVo;
+import org.apache.ozhera.trace.etl.domain.tracequery.TraceQueryResult;
 import org.apache.ozhera.tspandata.TSpanData;
 
 import java.util.List;

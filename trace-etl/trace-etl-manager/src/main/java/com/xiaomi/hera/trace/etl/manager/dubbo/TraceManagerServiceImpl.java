@@ -16,8 +16,8 @@
 package com.xiaomi.hera.trace.etl.manager.dubbo;
 
 import com.xiaomi.hera.trace.etl.api.service.TraceManagerService;
-import com.xiaomi.hera.trace.etl.domain.HeraTraceConfigVo;
-import com.xiaomi.hera.trace.etl.domain.HeraTraceEtlConfig;
+import org.apache.ozhera.trace.etl.domain.HeraTraceConfigVo;
+import org.apache.ozhera.trace.etl.domain.HeraTraceEtlConfig;
 import com.xiaomi.hera.trace.etl.service.ManagerService;
 import com.xiaomi.youpin.infra.rpc.Result;
 import org.apache.dubbo.config.annotation.Service;

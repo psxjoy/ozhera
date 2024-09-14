@@ -16,9 +16,9 @@
 package com.xiaomi.hera.trace.etl.manager.controller;
 
 import com.alibaba.nacos.api.config.annotation.NacosValue;
-import com.xiaomi.hera.trace.etl.domain.HeraTraceConfigVo;
-import com.xiaomi.hera.trace.etl.domain.HeraTraceEtlConfig;
-import com.xiaomi.hera.trace.etl.domain.PagerVo;
+import org.apache.ozhera.trace.etl.domain.HeraTraceConfigVo;
+import org.apache.ozhera.trace.etl.domain.HeraTraceEtlConfig;
+import org.apache.ozhera.trace.etl.domain.PagerVo;
 import com.xiaomi.hera.trace.etl.service.ManagerService;
 import com.xiaomi.mone.tpc.login.util.UserUtil;
 import com.xiaomi.mone.tpc.login.vo.AuthUserVo;

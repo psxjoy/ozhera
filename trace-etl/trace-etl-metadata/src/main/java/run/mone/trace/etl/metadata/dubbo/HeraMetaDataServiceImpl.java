@@ -17,10 +17,10 @@ package run.mone.trace.etl.metadata.dubbo;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.xiaomi.hera.trace.etl.api.service.HeraMetaDataService;
-import com.xiaomi.hera.trace.etl.domain.metadata.HeraMetaData;
-import com.xiaomi.hera.trace.etl.domain.metadata.HeraMetaDataModel;
-import com.xiaomi.hera.trace.etl.domain.metadata.HeraMetaDataQuery;
-import com.xiaomi.hera.trace.etl.mapper.HeraMetaDataMapper;
+import org.apache.ozhera.trace.etl.domain.metadata.HeraMetaData;
+import org.apache.ozhera.trace.etl.domain.metadata.HeraMetaDataModel;
+import org.apache.ozhera.trace.etl.domain.metadata.HeraMetaDataQuery;
+import org.apache.ozhera.trace.etl.mapper.HeraMetaDataMapper;
 import com.xiaomi.hera.trace.etl.util.convert.HeraMetaDataConvert;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.Service;

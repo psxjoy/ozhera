@@ -16,7 +16,7 @@
 package com.xiaomi.hera.trace.etl.manager.config;
 
 import com.xiaomi.hera.trace.etl.api.service.TraceEtlService;
-import com.xiaomi.hera.trace.etl.mapper.HeraTraceEtlConfigMapper;
+import org.apache.ozhera.trace.etl.mapper.HeraTraceEtlConfigMapper;
 import com.xiaomi.hera.trace.etl.service.ManagerService;
 import com.xiaomi.hera.trace.etl.service.impl.ManagerServiceImpl;
 import org.apache.dubbo.config.annotation.Reference;

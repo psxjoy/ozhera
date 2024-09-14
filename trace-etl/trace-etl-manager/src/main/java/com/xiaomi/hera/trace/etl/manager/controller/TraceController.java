@@ -16,10 +16,10 @@
 package com.xiaomi.hera.trace.etl.manager.controller;
 
 import com.xiaomi.hera.trace.etl.api.service.DataSourceService;
-import com.xiaomi.hera.trace.etl.domain.tracequery.TraceIdQueryVo;
-import com.xiaomi.hera.trace.etl.domain.tracequery.TraceListQueryVo;
-import com.xiaomi.hera.trace.etl.domain.tracequery.TraceOperationsVo;
-import com.xiaomi.hera.trace.etl.domain.tracequery.TraceQueryResult;
+import org.apache.ozhera.trace.etl.domain.tracequery.TraceIdQueryVo;
+import org.apache.ozhera.trace.etl.domain.tracequery.TraceListQueryVo;
+import org.apache.ozhera.trace.etl.domain.tracequery.TraceOperationsVo;
+import org.apache.ozhera.trace.etl.domain.tracequery.TraceQueryResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

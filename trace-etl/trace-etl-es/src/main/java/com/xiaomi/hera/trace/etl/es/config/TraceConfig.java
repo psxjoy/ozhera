@@ -16,8 +16,8 @@
 package com.xiaomi.hera.trace.etl.es.config;
 
 import com.alibaba.nacos.api.config.annotation.NacosValue;
-import com.xiaomi.hera.trace.etl.domain.HeraTraceConfigVo;
-import com.xiaomi.hera.trace.etl.domain.HeraTraceEtlConfig;
+import org.apache.ozhera.trace.etl.domain.HeraTraceConfigVo;
+import org.apache.ozhera.trace.etl.domain.HeraTraceEtlConfig;
 import com.xiaomi.hera.trace.etl.service.ManagerService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

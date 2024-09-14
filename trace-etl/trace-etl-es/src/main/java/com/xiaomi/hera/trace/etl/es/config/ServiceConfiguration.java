@@ -16,7 +16,7 @@
 
 package com.xiaomi.hera.trace.etl.es.config;
 
-import com.xiaomi.hera.trace.etl.mapper.HeraTraceEtlConfigMapper;
+import org.apache.ozhera.trace.etl.mapper.HeraTraceEtlConfigMapper;
 import com.xiaomi.hera.trace.etl.service.ManagerService;
 import com.xiaomi.hera.trace.etl.service.impl.ManagerServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

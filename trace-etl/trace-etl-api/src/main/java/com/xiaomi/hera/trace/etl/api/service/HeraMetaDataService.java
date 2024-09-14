@@ -16,8 +16,8 @@
 package com.xiaomi.hera.trace.etl.api.service;
 
 
-import com.xiaomi.hera.trace.etl.domain.metadata.HeraMetaDataModel;
-import com.xiaomi.hera.trace.etl.domain.metadata.HeraMetaDataQuery;
+import org.apache.ozhera.trace.etl.domain.metadata.HeraMetaDataModel;
+import org.apache.ozhera.trace.etl.domain.metadata.HeraMetaDataQuery;
 
 import java.util.List;
 

@@ -15,7 +15,7 @@
  */
 package run.mone.trace.etl.extension.rocketmq;
 
-import com.xiaomi.hera.trace.etl.common.HashUtil;
+import org.apache.ozhera.trace.etl.common.HashUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.common.message.MessageExt;
 import org.apache.rocketmq.common.message.MessageQueue;

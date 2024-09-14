@@ -17,7 +17,7 @@ package com.xiaomi.hera.trace.etl.dubbo;
 
 import com.xiaomi.hera.trace.etl.config.TraceConfig;
 import com.xiaomi.hera.trace.etl.api.service.TraceEtlService;
-import com.xiaomi.hera.trace.etl.domain.HeraTraceEtlConfig;
+import org.apache.ozhera.trace.etl.domain.HeraTraceEtlConfig;
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 

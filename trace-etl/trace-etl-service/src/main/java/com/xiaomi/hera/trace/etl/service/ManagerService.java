@@ -16,9 +16,9 @@
 
 package com.xiaomi.hera.trace.etl.service;
 
-import com.xiaomi.hera.trace.etl.domain.HeraTraceConfigVo;
-import com.xiaomi.hera.trace.etl.domain.HeraTraceEtlConfig;
-import com.xiaomi.hera.trace.etl.domain.PageData;
+import org.apache.ozhera.trace.etl.domain.HeraTraceConfigVo;
+import org.apache.ozhera.trace.etl.domain.HeraTraceEtlConfig;
+import org.apache.ozhera.trace.etl.domain.PageData;
 import com.xiaomi.youpin.infra.rpc.Result;
 
 import java.util.List;

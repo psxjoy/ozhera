@@ -16,9 +16,9 @@
 package com.xiaomi.hera.trace.etl.es.consumer;
 
 import com.alibaba.nacos.api.config.annotation.NacosValue;
-import com.xiaomi.hera.trace.etl.common.HashUtil;
+import org.apache.ozhera.trace.etl.common.HashUtil;
 import com.xiaomi.hera.trace.etl.service.HeraContextService;
-import com.xiaomi.hera.trace.etl.domain.HeraTraceEtlConfig;
+import org.apache.ozhera.trace.etl.domain.HeraTraceEtlConfig;
 import com.xiaomi.hera.trace.etl.es.config.TraceConfig;
 import com.xiaomi.hera.trace.etl.es.domain.FilterResult;
 import com.xiaomi.hera.trace.etl.es.util.bloomfilter.TraceIdRedisBloomUtil;

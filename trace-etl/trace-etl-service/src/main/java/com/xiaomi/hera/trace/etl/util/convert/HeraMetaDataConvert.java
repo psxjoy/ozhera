@@ -15,9 +15,9 @@
  */
 package com.xiaomi.hera.trace.etl.util.convert;
 
-import com.xiaomi.hera.trace.etl.domain.metadata.HeraMetaData;
-import com.xiaomi.hera.trace.etl.domain.metadata.HeraMetaDataMessage;
-import com.xiaomi.hera.trace.etl.domain.metadata.HeraMetaDataModel;
+import org.apache.ozhera.trace.etl.domain.metadata.HeraMetaData;
+import org.apache.ozhera.trace.etl.domain.metadata.HeraMetaDataMessage;
+import org.apache.ozhera.trace.etl.domain.metadata.HeraMetaDataModel;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

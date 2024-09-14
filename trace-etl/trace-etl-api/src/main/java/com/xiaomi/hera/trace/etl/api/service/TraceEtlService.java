@@ -15,7 +15,7 @@
  */
 package com.xiaomi.hera.trace.etl.api.service;
 
-import com.xiaomi.hera.trace.etl.domain.HeraTraceEtlConfig;
+import org.apache.ozhera.trace.etl.domain.HeraTraceEtlConfig;
 
 public interface TraceEtlService {
 
