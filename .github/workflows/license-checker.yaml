@@ -1,8 +1,7 @@
 name: License checker
 
 on:
-  pull_request:
-      branches: [ 2.x, develop, master ]
+  workflow_dispatch:
 
 jobs:
   check-license:
