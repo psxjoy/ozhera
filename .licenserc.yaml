@@ -38,6 +38,7 @@ header:
   paths-ignore:
     - '.gitignore'
     - '*.md'
+    - '*.svg'
     - 'LICENSE'
     - 'LICENSE.txt'
     - 'NOTICE'
@@ -59,6 +60,7 @@ header:
     - 'server/src/main/resources/lua/redislocker/redislock.lua'
     - 'server/src/main/resources/banner.txt'
     - '**/*.json'
+    - '**/*.svg'
   comment: on-failure
 dependency:
   files:
