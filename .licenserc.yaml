@@ -37,6 +37,7 @@ header:
 
   paths-ignore:
     - '.gitignore'
+    - '.gitmodules'
     - '*.md'
     - '*.svg'
     - 'LICENSE'
