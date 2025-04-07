@@ -37,7 +37,7 @@ metadata:
   namespace: ozhera-namespace
 spec:
   ports:
-    - port: 8081
+    - port: 80
       targetPort: 7001
       protocol: TCP
   selector:
